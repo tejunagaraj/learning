@@ -1,0 +1,33 @@
+HACMP snapshot migration
+
+- Stop cluster services on all nodes
+- Create cluster snapshot if needed
+- Upgrade AIX (If needed) including CAA filesets, requires a reboot ( all nodes )
+- Update /etc/cluster/rhosts file (all nodes)
+	- with public IP address or hostname of each node
+	- Or
+	- Hostname of each node
+	- only one per line
+- Refresh clcomd via refresh -s clcomd (on all nodes)
+- Run /usr/sbin/clmigcheck option 2 on each node
+
+	If the cluster can't be migrated will indicate that in error message, if there are errors snapshot cannot be migrated
+
+
+- Deinstall current version of powerHA on all nodes
+- Install PowerHA 7.1 on all nodes and SP
+- convert and apply back the snapshot
+- Verify the CAA cluster has been created (use /usr/sbin/lscluster -m)
+- Start cluster services, one node at a time, and ensure each nodes successfully joins a cluster
+
+
+
+
+
+Impt commands
+
+smitty clstop
+
+
+
+https://www.youtube.com/watch?v=1pkaQVB8r88   -- link for detailed info

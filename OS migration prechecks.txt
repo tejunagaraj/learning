@@ -1,0 +1,121 @@
+Eg:- mount -o soft czabsu1:/software /swmount
+	cd  /swmount/SECURITY_PATCHES/71TL3SP4-PKG 
+
+9.  run the postupgrade sript.
+ Eg:- cd /swmount/SCRIPT/PostInstallv2/AIX_71TL3SP04
+
+
+For Oracle rack server
+
+mount ktazd216.crdc.kp.org:/misc /mnt; cd /mnt/Cur*/scripts  
+11:34:46 PM: Shahbaz Ikram Basheer: # ./config-collect.ksh ; cd ../$(hostname)/pre* ; ls -al ; pwd 
+# cd / ; umount /mnt ; df -m /mnt  
+
+
+=============================================================================================
+
+date > /tmp/precheck/date.out
+lspv > /tmp/precheck/lspv.out
+lspv | wc -l >> /tmp/precheck/lspv.out
+uname -a > /tmp/precheck/uname.out
+lsvg > /tmp/precheck/lsvg.out
+lsvg -o > /tmp/precheck/lsvgo.out
+df -g > /tmp/precheck/df.out
+df -g | wc -l >> /tmp/precmount ktazd216.crdc.kp.org:/misc /mnt; cd /mnt/Cur*/scripts  
+11:34:46 PM
+◄
+# ./config-collect.ksh ; cd ../$(hostname)/pre* ; ls -al ; pwd
+# cd / ; umount /mnt ; df -m /mnt  heck/df.out
+ifconfig -a > /tmp/precheck/ifconfig.out
+lsvg -o | lsvg -il > /tmp/precheck/lsvgli.out
+lspath > /tmp/precheck/lspath.out
+netstat -rn > /tmp/precheck/netstatrn.out
+netstat -in > /tmp/precheck/netstatin.out 
+clRGinfo > /tmp/precheck/clRGinfo.out
+cldisp > /tmp/precheck/cldisp.out
+lspv | grep -i power > /tmp/precheck/lspv.power.out
+lsdev -Cc adapter > /tmp/precheck/adapter.out
+lsdev -Cc disk > /tmp/precheck/disk.out
+lparstat -i > /tmp/precheck/lparstat.out
+prtconf > /tmp/precheck/prtconf.out
+lsdev > /tmp/precheck/lsdev.out
+powermt display paths > /tmp/precheck/powermtpaths.out
+powermt display dev=all > /tmp/precheck/powermtdisk.out
+oslevel -s > /tmp/precheck/oslevel.out
+lppchk -v > /tmp/precheck/lppchk.out
+emgr -l > /tmp/precheck/emgr.out
+instfix -i | grep -i ml > /tmp/precheck/instfix.out
+lslpp -l | grep -i emc > /tmp/precheck/emc.out
+cp /etc/hosts /tmp/sysinfo/hosts.out
+cp /etc/filesystems /tmp/sysinfo/filesystems.out
+cp /etc/exports /tmp/sysinfo/exports.out
+cp /etc/inetd.conf /tmp/sysinfo/inetd.conf.out
+cp -p /etc/opt/quest/ssh/ssh_host_* /tmp/sysinfo/sshfiles
+cp -p /etc/passwd /tmp/sysinfo
+df -gt |wc -l > /tmp/precheck/df.count
+cp /etc/rc.tcpip /tmp/sysinfo
+lssrc -a |grep -i active > /tmp/precheck/src.out
+lsrsrc IBM.MCP > /tmp/precheck/hmc.out
+errpt > /tmp/precheck/errpt.out
+lssrc -a > /tmp/precheck/src.out
+lssrc -ls inetd > /tmp/precheck/inetd.src
+lssrc -a |grep -i active |wc -l > /tmp/precheck/lssrc_active.count
+lsps -a > /tmp/precheck/pagging.out
+sysdumpdev -l > /tmp/precheck/sysdumpdev.out
+lssrc -ls inetd > /tmp/precheck/inetd_src.out
+crontab -l > /tmp/precheck/crontab.out
+lsitab -a > /tmp/precheck/lstab.out
+lsattr -El inetd
+lsdev -Cc adapter |grep -i fcs |awk '{print $1}' > /tmp/precheck/fcs.out
+for i in `cat fcs.out` ;do lsattr -El $i > /tmp/precheck/$i.attr.out ;done
+
+lsdev -Cc adapter |grep -i ent* |awk '{print $1}'  > /tmp/precheck/ent.out
+for i in `cat ent.out` ; do lsattr -El $i > /tmp/precheck/$i.attr.out ;done
+
+lsdev -Cc adapter |grep -i vscsi |awk '{print $1}' > /tmp/precheck/vscsi.out
+for i in `cat vscsi.out` ;do lsattr -El $i > /tmp/precheck/$i.attr.out ;done
+
+lsdev -Cc adapter |grep -i sissas |awk '{print $1}' > /tmp/precheck/sas.out
+for i in `cat sas.out` ;do lsattr -El $i > /tmp/precheck/$i.attr.out ;done
+
+lsdev -Cc adapter|awk '{print $1 }' > /tmp/precheck/lsdev.out
+for i in `cat lsdev.out`; do lscfg -vpl $i > /tmp/precheck/$i.lscfg.out; done 
+
+
+
+============================================================================================================
+
+					POST UPGRADE STEPS		
+
+****** Make sure you boot the profile in NOHBA mode before installing patch and running upgrade.. ******
+
+Eg:- mount -o soft czabsu1:/software /swmount
+	cd  /swmount/SECURITY_PATCHES/71TL3SP4-PKG 
+
+9.  run the postupgrade sript after security patch installed
+swmount/SCRIPT/PostInstallv2/AIX_71TL3SP05 >
+
+# ls -l | grep -i upgrade
+-r-xrwx---    1 nobody   system        18859 Mar 30 14:50 PostUpgradeToAIX_71TL3SP05
+root@wzaddb86 /swmount/SCRIPT/PostInstallv2/AIX_71TL3SP05 > 
+
+---------------------------------------
+
+Upgrade the below fileset
+
+# lslpp -l | grep -i iam
+  KPITIAMU.apps           0.3.0.1085  COMMITTED  IAMUNIX UAM R2 scripts package
+
+mount -o soft czxnap4:/misc /mnt/uamr2/iamunix/packages
+
+Below command to run after IAM fileset upgrade ONLY IF WE ARE NOT ABLE TO LOGIN
+
+/opt/iamunix/scripts/iamunix_uamr2_upgrade.sh -t <CRQ #> -ru <nuid> -adsou non-prod -pbd non-prod -spt  -- for non prod servers
+/opt/iamunix/scripts/iamunix_uamr2_upgrade.sh -t <CRQ #> -ru <nuid> -adcou prod -pbd prod -spt   -- for prod servers
+
+---------------------------------------
+
+
+
+
+

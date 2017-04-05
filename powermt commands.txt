@@ -1,0 +1,3105 @@
+[teju@oc0118828730 ~]$ ssh o469665@172.30.32.98
+================================================================
+This is a private computer system. Access to and use requires
+explicit current authorization and is limited to business use.
+All users express consent to monitoring by system personnel to
+detect improper use of or access to the system, system personnel
+may provide evidence of such conduct to law enforcement
+officials and/or company management.
+================================================================
+UAM R2 account support: http://ussweb.crdc.kp.org/UAM/
+================================================================
+For password resets, please call the Helpdesk 888-457-4872
+================================================================
+
+Password for O469665@cs.msds.kp.org: 
+$ ssh 172.18.38.69
+================================================================
+This is a private computer system. Access to and use requires
+explicit current authorization and is limited to business use.
+All users express consent to monitoring by system personnel to
+detect improper use of or access to the system, system personnel
+may provide evidence of such conduct to law enforcement
+officials and/or company management.
+================================================================
+UAM R2 account support: http://ussweb.crdc.kp.org/UAM/
+================================================================
+For password resets, please call the Helpdesk 888-457-4872
+================================================================
+$ pbrun su -
+[YOU HAVE NEW MAIL]
+root@nzapbs10 / > 
+# ifconfig -a
+en4: flags=1e080863,c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+        inet 172.19.195.21 netmask 0xffffff00 broadcast 172.19.195.255
+         tcp_sendspace 262144 tcp_recvspace 131072 rfc1323 1
+en5: flags=1e080863,c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+        inet 172.18.38.69 netmask 0xffffff00 broadcast 172.18.38.255
+         tcp_sendspace 131072 tcp_recvspace 65536 rfc1323 0
+lo0: flags=e08084b,c0<UP,BROADCAST,LOOPBACK,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,LARGESEND,CHAIN>
+        inet 127.0.0.1 netmask 0xff000000 broadcast 127.255.255.255
+        inet6 ::1%1/0
+         tcp_sendspace 131072 tcp_recvspace 131072 rfc1323 1
+root@nzapbs10 / > 
+# lspv      
+hdisk0          00ce774b5e2f4747                    rootvg          active
+hdisk1          00ce774b5e2f49c9                    rootvg          active
+hdisk2          00ce774b5e2f4c42                    image_1         
+hdisk3          00ce774b5e2f4eb7                    image_1         
+hdisk4          00f64694b8362e58                    None            
+hdisk5          none                                None            
+hdisk6          none                                None            
+hdisk7          none                                None            
+hdisk8          none                                None            
+hdisk9          none                                None            
+hdisk10         none                                None            
+hdisk11         none                                None            
+hdisk12         none                                None            
+hdisk13         none                                None            
+hdisk14         none                                None            
+hdisk15         none                                None            
+hdisk16         none                                None            
+hdisk17         none                                None            
+hdisk18         none                                None            
+hdisk19         none                                None            
+hdisk20         none                                None            
+hdisk21         none                                None            
+hdisk22         none                                None            
+hdisk23         none                                None            
+hdisk24         none                                None            
+hdisk25         none                                None            
+hdisk26         none                                None            
+hdisk27         none                                None            
+hdisk28         none                                None            
+hdisk29         none                                None            
+hdisk54         00f64694b8362e58                    None            
+hdisk55         none                                None            
+hdisk56         none                                None            
+hdisk57         none                                None            
+hdisk58         none                                None            
+hdisk59         none                                None            
+hdisk60         none                                None            
+hdisk61         none                                None            
+hdisk62         none                                None            
+hdisk63         none                                None            
+hdisk64         none                                None            
+hdisk65         none                                None            
+hdisk66         none                                None            
+hdisk67         none                                None            
+hdisk68         none                                None            
+hdisk69         none                                None            
+hdisk70         none                                None            
+hdisk71         none                                None            
+hdisk72         none                                None            
+hdisk73         none                                None            
+hdisk74         none                                None            
+hdisk75         none                                None            
+hdisk76         none                                None            
+hdisk77         none                                None            
+hdisk78         none                                None            
+hdisk79         00f64694b8362e58                    None            
+hdisk80         none                                None            
+hdisk81         none                                None            
+hdisk82         none                                None            
+hdisk83         none                                None            
+hdisk84         none                                None            
+hdisk85         none                                None            
+hdisk86         none                                None            
+hdisk87         none                                None            
+hdisk88         none                                None            
+hdisk89         none                                None            
+hdisk90         none                                None            
+hdisk91         none                                None            
+hdisk92         none                                None            
+hdisk93         none                                None            
+hdisk94         none                                None            
+hdisk95         none                                None            
+hdisk96         none                                None            
+hdisk97         none                                None            
+hdisk98         none                                None            
+hdisk99         none                                None            
+hdisk100        none                                None            
+hdisk101        none                                None            
+hdisk102        none                                None            
+hdisk103        none                                None            
+hdiskpower0     00ce774b9014f503                    ndctsm10stg1vg  active
+hdiskpower1     00ce774b901d6d02                    ndctsm10stg1vg  active
+hdiskpower2     00ce774b90176641                    ndctsm10stg1vg  active
+hdiskpower3     00ce774b901415be                    ndctsm10stg1vg  active
+hdiskpower4     00ce774b8eb28cea                    ndctsm10stg2vg  active
+hdiskpower5     00ce774b8ea9e845                    ndctsm10stg2vg  active
+hdiskpower6     00ce774b8eb7964c                    ndctsm10stg2vg  active
+hdiskpower7     00ce774b8eaf2827                    ndctsm10stg2vg  active
+hdiskpower8     00ce774b8eacd49a                    ndctsm10stg4vg  active
+hdiskpower9     00ce774b8ea542e6                    ndctsm10stg4vg  active
+hdiskpower10    00ce774b8eabdbaf                    ndctsm10stg4vg  active
+hdiskpower11    00ce774b8ea2c2de                    ndctsm10stg4vg  active
+hdiskpower12    00ce774b901e6246                    ndctsm10stg1vg  active
+hdiskpower13    00ce774b8eb5c736                    ndctsm10stg2vg  active
+hdiskpower14    00ce774b8ea9f269                    ndctsm10stg4vg  active
+hdiskpower15    00ce774b8ea354e5                    ndctsm10stg3vg  active
+hdiskpower16    00ce774b8e9bb48f                    ndctsm10stg3vg  active
+hdiskpower17    00ce774b8ea22a97                    ndctsm10stg3vg  active
+hdiskpower18    00ce774b8ea12018                    ndctsm10stg3vg  active
+hdiskpower19    00ce774b8ea7c72c                    ndctsm10stg3vg  active
+hdiskpower20    00ce774b8ea65ea3                    ndctsm10stg3vg  active
+hdiskpower21    00ce774b8ea3053f                    ndctsm10stg3vg  active
+hdiskpower22    00ce774b8e948485                    ndctsm10logvg   active
+hdiskpower23    00ce774b8e9705ad                    appsvg          active
+hdisk106        none                                None            
+hdisk107        none                                None            
+hdiskpower24    00ce774bcd1cc844                    ndctsm10stg3vg  active
+root@nzapbs10 / > 
+# powermt display
+Symmetrix logical device count=25
+CLARiiON logical device count=0
+Hitachi logical device count=0
+Invista logical device count=0
+HP xp logical device count=0
+HP HSx logical device count=0
+==============================================================================
+----- Host Bus Adapters ---------  ------ I/O Paths -----  ------ Stats ------
+###  HW Path                       Summary   Total   Dead  IO/Sec Q-IOs Errors
+==============================================================================
+   3 fscsi25                       optimal      25      0       -     0      0
+   4 fscsi26                       optimal      25      0       -     0      0
+   5 fscsi27                       optimal      25      0       -     0      0
+
+
+root@nzapbs10 / > 
+# powermt display dev=fscsi25
+Bad dev value fscsi25, or not under Powerpath control.
+root@nzapbs10 / > 
+# powermet display all
+ksh: powermet:  not found
+root@nzapbs10 / > 
+# powermt display all
+Usage:
+  powermt <command> [class=all|clariion|ess|hitachi|hphsx|hpxp|invista|symm]
+
+  powermt check [force] [hba=<hba#>|all] [dev=<device>|all]
+  powermt check_registration
+  powermt config
+  powermt disable hba=<hba#> 
+  powermt display nonvirtual {dev=<device>|all} [every=<#seconds>] [class=invista|all]
+                [width=<#col>]
+  powermt display [ports] [dev=<device>|all] [every=<#seconds>]
+                [width=<#col>]
+  powermt display hba_mode 
+  powermt display latency [dev=<device>|all] [every=<#seconds>]
+                [width=<#col>]
+  powermt display options
+  powermt display paths  [every=<#seconds>] [width=<#col>]
+  powermt display port_mode 
+  powermt display unmanaged
+  powermt enable hba=<hba#> 
+  powermt load [file=<filename>]
+  powermt manage {dev=<device> | class=<storage array class>}
+  powermt remove [force] hba=<hba#>|all | dev=<device>|all
+  powermt restore [hba=<hba#>|all] [dev=<device>|all]
+  powermt save [file=<filename>]
+  powermt set mode=active|standby [hba=<hba#>|all] [dev=<device>|all]
+  powermt set path_latency_monitor=on|off
+  powermt set path_latency_threshold=<seconds>
+  powermt set periodic_autorestore=on|off
+  powermt set policy={ad|bf|co|lb|li|nr|re|rr|so|si} [dev=<device>|all]
+  powermt set port_disable={true|false} dev=<device>
+  powermt set priority=<priority> [dev=<device>|all]
+  powermt set write_throttle={on|off} [dev=<device>|all]
+  powermt set write_throttle_queue=<queue_depth> [dev=<device>|all]
+  powermt unmanage {dev=<device> | class=<storage array class>}
+  powermt update lun_names
+  powermt version [format={verbose|legacy}]
+
+root@nzapbs10 / > 
+# powermt display paths
+Symmetrix logical device count=25
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System -----    - I/O Paths -
+###  HW Path                           ID          Interface     Total    Dead
+==============================================================================
+   3 fscsi25                      000192604543      FA 10eA         25       0
+   4 fscsi26                      000192604543      FA  7eA         25       0
+   5 fscsi27                      000192604543      FA 10eA         25       0
+
+CLARiiON logical device count=0
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System -----    - I/O Paths -
+###  HW Path                           ID          Interface     Total    Dead
+==============================================================================
+
+Hitachi logical device count=0
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System -----    - I/O Paths -
+###  HW Path                           ID          Interface     Total    Dead
+==============================================================================
+
+Invista logical device count=0
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System -----    - I/O Paths -
+###  HW Path                           ID          Interface     Total    Dead
+==============================================================================
+
+HP xp logical device count=0
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System -----    - I/O Paths -
+###  HW Path                           ID          Interface     Total    Dead
+==============================================================================
+
+HP HSx logical device count=0
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System -----    - I/O Paths -
+###  HW Path                           ID          Interface     Total    Dead
+==============================================================================
+
+
+
+root@nzapbs10 / > 
+# powermt display hba_mode
+Symmetrix logical device count=25
+CLARiiON logical device count=0
+Hitachi logical device count=0
+Invista logical device count=0
+HP xp logical device count=0
+HP HSx logical device count=0
+==============================================================================
+----- Host Bus Adapters ---------  ------ I/O Paths -----  Stats      
+###  HW Path                       Summary   Total   Dead  Q-IOs Mode  
+==============================================================================
+   3 fscsi25                       optimal      25      0     0 Enabled 
+   4 fscsi26                       optimal      25      0     0 Enabled 
+   5 fscsi27                       optimal      25      0     0 Enabled 
+
+
+root@nzapbs10 / > 
+# powermt display options
+
+        Default storage system class: all
+        Show CLARiiON LUN names:      true
+
+        Path Latency Monitor: Off
+
+        Path Latency Threshold: 0 Sec.
+
+        Storage
+        System Class  Attributes
+        ------------  ----------
+
+        Symmetrix     periodic autorestore = on
+                      status = managed
+
+        CLARiiON      periodic autorestore = on
+                      status = managed
+
+        Hitachi       periodic autorestore = on
+                      status = managed
+
+        Invista       periodic autorestore = on
+                      status = managed
+
+        HP xp         periodic autorestore = on
+                      status = managed
+
+        Ess           periodic autorestore = on
+                      status = unmanaged
+
+        HP HSx        periodic autorestore = on
+                      status = managed
+
+root@nzapbs10 / > 
+# powermt display port_mode
+
+Storage class = Symmetrix
+==============================================================================
+----------- Storage System ---------------     -- I/O Paths --   --- Stats ---
+    ID              Interface         Wt_Q      Total    Dead    Q-IOs  Mode  
+==============================================================================
+    000192604543     FA 10eA           256         50       0        0  Enabled  
+    000192604543     FA  7eA           256         25       0        0  Enabled  
+
+Storage class = CLARiiON
+==============================================================================
+----------- Storage System ---------------     -- I/O Paths --   --- Stats ---
+    ID              Interface         Wt_Q      Total    Dead    Q-IOs  Mode  
+==============================================================================
+
+
+root@nzapbs10 / > 
+# powermt display unmanaged
+No unmanaged devices found.
+root@nzapbs10 / > 
+# which powermt
+/usr/sbin/powermt
+root@nzapbs10 / > 
+# man powermt
+root@nzapbs10 / > 
+# powermt check
+root@nzapbs10 / > 
+# powermt display latency
+Symmetrix logical device count=25
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System ----  - Latency (us) -
+###  HW Path                           ID          Interface   Current    Max
+==============================================================================
+   3 fscsi25                      000192604543      FA 10eA      0       0
+   4 fscsi26                      000192604543      FA  7eA      0       0
+   5 fscsi27                      000192604543      FA 10eA      0       0
+
+CLARiiON logical device count=0
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System ----  - Latency (us) -
+###  HW Path                           ID          Interface   Current    Max
+==============================================================================
+
+Hitachi logical device count=0
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System ----  - Latency (us) -
+###  HW Path                           ID          Interface   Current    Max
+==============================================================================
+
+Invista logical device count=0
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System ----  - Latency (us) -
+###  HW Path                           ID          Interface   Current    Max
+==============================================================================
+
+HP xp logical device count=0
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System ----  - Latency (us) -
+###  HW Path                           ID          Interface   Current    Max
+==============================================================================
+
+HP HSx logical device count=0
+==============================================================================
+----- Host Bus Adapters --------- ------ Storage System ----  - Latency (us) -
+###  HW Path                           ID          Interface   Current    Max
+==============================================================================
+
+
+
+root@nzapbs10 / > 
+# powermt check fscsi25
+Usage:
+  powermt <command> [class=all|clariion|ess|hitachi|hphsx|hpxp|invista|symm]
+
+  powermt check [force] [hba=<hba#>|all] [dev=<device>|all]
+  powermt check_registration
+  powermt config
+  powermt disable hba=<hba#> 
+  powermt display nonvirtual {dev=<device>|all} [every=<#seconds>] [class=invista|all]
+                [width=<#col>]
+  powermt display [ports] [dev=<device>|all] [every=<#seconds>]
+                [width=<#col>]
+  powermt display hba_mode 
+  powermt display latency [dev=<device>|all] [every=<#seconds>]
+                [width=<#col>]
+  powermt display options
+  powermt display paths  [every=<#seconds>] [width=<#col>]
+  powermt display port_mode 
+  powermt display unmanaged
+  powermt enable hba=<hba#> 
+  powermt load [file=<filename>]
+  powermt manage {dev=<device> | class=<storage array class>}
+  powermt remove [force] hba=<hba#>|all | dev=<device>|all
+  powermt restore [hba=<hba#>|all] [dev=<device>|all]
+  powermt save [file=<filename>]
+  powermt set mode=active|standby [hba=<hba#>|all] [dev=<device>|all]
+  powermt set path_latency_monitor=on|off
+  powermt set path_latency_threshold=<seconds>
+  powermt set periodic_autorestore=on|off
+  powermt set policy={ad|bf|co|lb|li|nr|re|rr|so|si} [dev=<device>|all]
+  powermt set port_disable={true|false} dev=<device>
+  powermt set priority=<priority> [dev=<device>|all]
+  powermt set write_throttle={on|off} [dev=<device>|all]
+  powermt set write_throttle_queue=<queue_depth> [dev=<device>|all]
+  powermt unmanage {dev=<device> | class=<storage array class>}
+  powermt update lun_names
+  powermt version [format={verbose|legacy}]
+
+root@nzapbs10 / > 
+# powermt check all
+Usage:
+  powermt <command> [class=all|clariion|ess|hitachi|hphsx|hpxp|invista|symm]
+
+  powermt check [force] [hba=<hba#>|all] [dev=<device>|all]
+  powermt check_registration
+  powermt config
+  powermt disable hba=<hba#> 
+  powermt display nonvirtual {dev=<device>|all} [every=<#seconds>] [class=invista|all]
+                [width=<#col>]
+  powermt display [ports] [dev=<device>|all] [every=<#seconds>]
+                [width=<#col>]
+  powermt display hba_mode 
+  powermt display latency [dev=<device>|all] [every=<#seconds>]
+                [width=<#col>]
+  powermt display options
+  powermt display paths  [every=<#seconds>] [width=<#col>]
+  powermt display port_mode 
+  powermt display unmanaged
+  powermt enable hba=<hba#> 
+  powermt load [file=<filename>]
+  powermt manage {dev=<device> | class=<storage array class>}
+  powermt remove [force] hba=<hba#>|all | dev=<device>|all
+  powermt restore [hba=<hba#>|all] [dev=<device>|all]
+  powermt save [file=<filename>]
+  powermt set mode=active|standby [hba=<hba#>|all] [dev=<device>|all]
+  powermt set path_latency_monitor=on|off
+  powermt set path_latency_threshold=<seconds>
+  powermt set periodic_autorestore=on|off
+  powermt set policy={ad|bf|co|lb|li|nr|re|rr|so|si} [dev=<device>|all]
+  powermt set port_disable={true|false} dev=<device>
+  powermt set priority=<priority> [dev=<device>|all]
+  powermt set write_throttle={on|off} [dev=<device>|all]
+  powermt set write_throttle_queue=<queue_depth> [dev=<device>|all]
+  powermt unmanage {dev=<device> | class=<storage array class>}
+  powermt update lun_names
+  powermt version [format={verbose|legacy}]
+
+root@nzapbs10 / > 
+# powermt check hba=fcs0
+Bad hba value fcs0, or not under Powerpath control.
+root@nzapbs10 / > 
+# powermt check hba=fscsi25
+Bad hba value fscsi25, or not under Powerpath control.
+root@nzapbs10 / > 
+# man powermt 
+root@nzapbs10 / > 
+# lsrsrc IBM.MCP
+Resource Persistent Attributes for IBM.MCP
+resource 1:
+        MNName            = "172.18.38.69"
+        NodeID            = 16678258671750808160
+        KeyToken          = "172.18.37.22"
+        IPAddresses       = {"172.17.0.2","172.18.37.22"}
+        ConnectivityNames = {}
+        HMCName           = ""
+        HMCIPAddr         = ""
+        HMCAddIPs         = ""
+        HMCAddIPv6s       = ""
+        ActivePeerDomain  = ""
+        NodeNameList      = {"nzapbs10"}
+resource 2:
+        MNName            = "172.18.38.69"
+        NodeID            = 4958060130007747101
+        KeyToken          = "172.18.37.21"
+        IPAddresses       = {"10.0.255.1","172.18.37.21"}
+        ConnectivityNames = {}
+        HMCName           = ""
+        HMCIPAddr         = ""
+        HMCAddIPs         = ""
+        HMCAddIPv6s       = ""
+        ActivePeerDomain  = ""
+        NodeNameList      = {"nzapbs10"}
+root@nzapbs10 / > 
+# ifocnifg -a
+ksh: ifocnifg:  not found
+root@nzapbs10 / > 
+# ifconfig -a
+en4: flags=1e080863,c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+        inet 172.19.195.21 netmask 0xffffff00 broadcast 172.19.195.255
+         tcp_sendspace 262144 tcp_recvspace 131072 rfc1323 1
+en5: flags=1e080863,c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+        inet 172.18.38.69 netmask 0xffffff00 broadcast 172.18.38.255
+         tcp_sendspace 131072 tcp_recvspace 65536 rfc1323 0
+lo0: flags=e08084b,c0<UP,BROADCAST,LOOPBACK,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,LARGESEND,CHAIN>
+        inet 127.0.0.1 netmask 0xff000000 broadcast 127.255.255.255
+        inet6 ::1%1/0
+         tcp_sendspace 131072 tcp_recvspace 131072 rfc1323 1
+root@nzapbs10 / > 
+# nslookup 172.17.0.2
+Server:         172.18.33.250
+Address:        172.18.33.250#53
+
+** server can't find 2.0.17.172.in-addr.arpa: NXDOMAIN
+
+root@nzapbs10 / > 
+# nslookup 172.18.37.21
+Server:         172.18.33.250
+Address:        172.18.33.250#53
+
+21.37.18.172.in-addr.arpa       name = nzlchm1.nndc.kp.org.
+
+root@nzapbs10 / > 
+# ifconfig -a
+en4: flags=1e080863,c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+        inet 172.19.195.21 netmask 0xffffff00 broadcast 172.19.195.255
+         tcp_sendspace 262144 tcp_recvspace 131072 rfc1323 1
+en5: flags=1e080863,c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+        inet 172.18.38.69 netmask 0xffffff00 broadcast 172.18.38.255
+         tcp_sendspace 131072 tcp_recvspace 65536 rfc1323 0
+lo0: flags=e08084b,c0<UP,BROADCAST,LOOPBACK,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,LARGESEND,CHAIN>
+        inet 127.0.0.1 netmask 0xff000000 broadcast 127.255.255.255
+        inet6 ::1%1/0
+         tcp_sendspace 131072 tcp_recvspace 131072 rfc1323 1
+root@nzapbs10 / > 
+# lscfg -vpl fcs*
+  fcs28            U7311.D20.1016F7B-P1-C01-T1  FC Adapter
+
+        Part Number.................00E0808
+        Serial Number...............1C251080EB
+        Manufacturer................001C
+        EC Level.................... D77163B
+        Customer Card ID Number.....5759
+        Manufacturer................001
+        FRU Number.................. 00E0808
+        Device Specific.(ZM)........3
+        Network Address.............10000090FA161AA2
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000090FA161AA2
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016F7B-P1-C01-T1
+
+  fcs29            U7311.D20.1016F7B-P1-C01-T2  FC Adapter
+
+        Part Number.................00E0808
+        Serial Number...............1C251080EB
+        Manufacturer................001C
+        EC Level.................... D77163B
+        Customer Card ID Number.....5759
+        Manufacturer................001
+        FRU Number.................. 00E0808
+        Device Specific.(ZM)........3
+        Network Address.............10000090FA161AA3
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000090FA161AA3
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016F7B-P1-C01-T2
+
+  fcs4             U7311.D20.1016F7B-P1-C02-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B54805007
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94EC3CB
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94EC3CB
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016F7B-P1-C02-T1
+
+  fcs5             U7311.D20.1016F7B-P1-C03-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B5490412B
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94ED567
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94ED567
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016F7B-P1-C03-T1
+
+  fcs26            U7311.D20.1016F7B-P1-C04-T1  FC Adapter
+
+        Part Number.................10N8620
+        Serial Number...............1C0470840B
+        Manufacturer................001C
+        EC Level....................D76625
+        Customer Card ID Number.....5759
+        FRU Number.................. 10N8620
+        Device Specific.(ZM)........3
+        Network Address.............10000000C9AD34D2
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000000C9AD34D2
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016F7B-P1-C04-T1
+
+  fcs27            U7311.D20.1016F7B-P1-C04-T2  FC Adapter
+
+        Part Number.................10N8620
+        Serial Number...............1C0470840B
+        Manufacturer................001C
+        EC Level....................D76625
+        Customer Card ID Number.....5759
+        FRU Number.................. 10N8620
+        Device Specific.(ZM)........3
+        Network Address.............10000000C9AD34D3
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000000C9AD34D3
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016F7B-P1-C04-T2
+
+  fcs0             U7311.D20.1016F7B-P1-C06-T1  FC Adapter
+
+        Part Number.................00E0808
+        Serial Number...............1C302080E8
+        Manufacturer................001C
+        EC Level.................... D77163B
+        Customer Card ID Number.....5759
+        Manufacturer................001
+        FRU Number.................. 00E0808
+        Device Specific.(ZM)........3
+        Network Address.............10000090FA16C5FA
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000090FA16C5FA
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016F7B-P1-C06-T1
+
+  fcs1             U7311.D20.1016F7B-P1-C06-T2  FC Adapter
+
+        Part Number.................00E0808
+        Serial Number...............1C302080E8
+        Manufacturer................001C
+        EC Level.................... D77163B
+        Customer Card ID Number.....5759
+        Manufacturer................001
+        FRU Number.................. 00E0808
+        Device Specific.(ZM)........3
+        Network Address.............10000090FA16C5FB
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000090FA16C5FB
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016F7B-P1-C06-T2
+
+  fcs6             U7311.D20.1016F7B-P1-C07-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B6070449D
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C951E08A
+        ROS Level and ID............0288193D
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801412
+        Device Specific.(Z5)........0288193D
+        Device Specific.(Z6)........0683193D
+        Device Specific.(Z7)........0783193D
+        Device Specific.(Z8)........20000000C951E08A
+        Device Specific.(Z9)........TS1.90X13
+        Device Specific.(ZA)........T1D1.90X13
+        Device Specific.(ZB)........T2D1.90X13
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016F7B-P1-C07-T1
+
+  fcs7             U7311.D20.1016F7B-P1-C08-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B54804FE9
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94EB799
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94EB799
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016F7B-P1-C08-T1
+
+  fcs2             U7311.D20.1016FFB-P1-C01-T1  FC Adapter
+
+        Part Number.................10N8620
+        Serial Number...............1C90408914
+        Manufacturer................001C
+        EC Level....................D76625
+        Customer Card ID Number.....5759
+        FRU Number.................. 10N8620
+        Device Specific.(ZM)........3
+        Network Address.............10000000C98474D4
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000000C98474D4
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016FFB-P1-C01-T1
+
+  fcs31            U7311.D20.1016FFB-P1-C01-T2  FC Adapter
+
+        Part Number.................10N8620
+        Serial Number...............1C90408914
+        Manufacturer................001C
+        EC Level....................D76625
+        Customer Card ID Number.....5759
+        FRU Number.................. 10N8620
+        Device Specific.(ZM)........3
+        Network Address.............10000000C98474D5
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000000C98474D5
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016FFB-P1-C01-T2
+
+  fcs8             U7311.D20.1016FFB-P1-C02-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B54805025
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94EC2CA
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94EC2CA
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016FFB-P1-C02-T1
+
+  fcs9             U7311.D20.1016FFB-P1-C03-T1  FC Adapter
+
+        Part Number.................80P4543
+        EC Level....................A
+        Serial Number...............1B5450396B
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number..................     80P4544
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94E3A76
+        ROS Level and ID............0288193D
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801412
+        Device Specific.(Z5)........0288193D
+        Device Specific.(Z6)........0683193D
+        Device Specific.(Z7)........0783193D
+        Device Specific.(Z8)........20000000C94E3A76
+        Device Specific.(Z9)........TS1.90X13
+        Device Specific.(ZA)........T1D1.90X13
+        Device Specific.(ZB)........T2D1.90X13
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016FFB-P1-C03-T1
+
+  fcs24            U7311.D20.1016FFB-P1-C04-T1  FC Adapter
+
+        Part Number.................10N8620
+        Serial Number...............1C105082CC
+        Manufacturer................001C
+        EC Level....................D76625
+        Customer Card ID Number.....5759
+        FRU Number.................. 10N8620
+        Device Specific.(ZM)........3
+        Network Address.............10000000C9B55518
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000000C9B55518
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016FFB-P1-C04-T1
+
+  fcs25            U7311.D20.1016FFB-P1-C04-T2  FC Adapter
+
+        Part Number.................10N8620
+        Serial Number...............1C105082CC
+        Manufacturer................001C
+        EC Level....................D76625
+        Customer Card ID Number.....5759
+        FRU Number.................. 10N8620
+        Device Specific.(ZM)........3
+        Network Address.............10000000C9B55519
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000000C9B55519
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016FFB-P1-C04-T2
+
+  fcs3             U7311.D20.1016FFB-P1-C06-T1  FC Adapter
+
+        Part Number.................10N8620
+        Serial Number...............1C9130808D
+        Manufacturer................001C
+        EC Level....................D76625
+        Customer Card ID Number.....5759
+        FRU Number.................. 10N8620
+        Device Specific.(ZM)........3
+        Network Address.............10000000C9863FFE
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000000C9863FFE
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016FFB-P1-C06-T1
+
+  fcs30            U7311.D20.1016FFB-P1-C06-T2  FC Adapter
+
+        Part Number.................10N8620
+        Serial Number...............1C9130808D
+        Manufacturer................001C
+        EC Level....................D76625
+        Customer Card ID Number.....5759
+        FRU Number.................. 10N8620
+        Device Specific.(ZM)........3
+        Network Address.............10000000C9863FFF
+        ROS Level and ID............02C82774
+        Device Specific.(Z0)........1036406D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FFC01231
+        Device Specific.(Z5)........02C82774
+        Device Specific.(Z6)........06C12715
+        Device Specific.(Z7)........07C12774
+        Device Specific.(Z8)........20000000C9863FFF
+        Device Specific.(Z9)........BS2.71X4 
+        Device Specific.(ZA)........B1F2.70A5 
+        Device Specific.(ZB)........B2F2.71X4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016FFB-P1-C06-T2
+
+  fcs10            U7311.D20.1016FFB-P1-C07-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1F5490C1C0
+        Manufacturer................001F
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C9505CEF
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C9505CEF
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016FFB-P1-C07-T1
+
+  fcs11            U7311.D20.1016FFB-P1-C08-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B54904A06
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94ED570
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94ED570
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.1016FFB-P1-C08-T1
+
+  fcs22            U7311.D20.101702B-P1-C01-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B549040B2
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94ECD5A
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94ECD5A
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101702B-P1-C01-T1
+
+  fcs16            U7311.D20.101702B-P1-C02-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B549040B6
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94ECD5C
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94ECD5C
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101702B-P1-C02-T1
+
+  fcs17            U7311.D20.101702B-P1-C03-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B549049DF
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94EDB23
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94EDB23
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101702B-P1-C03-T1
+
+  fcs23            U7311.D20.101702B-P1-C06-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B54904161
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94ED68F
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94ED68F
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101702B-P1-C06-T1
+
+  fcs18            U7311.D20.101702B-P1-C07-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B5420455E
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94E2267
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94E2267
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101702B-P1-C07-T1
+
+  fcs19            U7311.D20.101702B-P1-C08-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B54904A11
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94EA310
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94EA310
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101702B-P1-C08-T1
+
+  fcs20            U7311.D20.101701B-P1-C01-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B54904A13
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94ED208
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94ED208
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101701B-P1-C01-T1
+
+  fcs12            U7311.D20.101701B-P1-C02-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B5490490B
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94EA671
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94EA671
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101701B-P1-C02-T1
+
+  fcs13            U7311.D20.101701B-P1-C03-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1F5410C27F
+        Manufacturer................001F
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94CA65F
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94CA65F
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101701B-P1-C03-T1
+
+  fcs21            U7311.D20.101701B-P1-C06-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B54904A15
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94ED212
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94ED212
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101701B-P1-C06-T1
+
+  fcs14            U7311.D20.101701B-P1-C07-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1B5420455B
+        Manufacturer................001B
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94E2261
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94E2261
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101701B-P1-C07-T1
+
+  fcs15            U7311.D20.101701B-P1-C08-T1  FC Adapter
+
+        Part Number.................03N6441
+        EC Level....................A
+        Serial Number...............1F5410C268
+        Manufacturer................001F
+        Customer Card ID Number.....280B
+        FRU Number.................. 03N6441
+        Device Specific.(ZM)........3
+        Network Address.............10000000C94CA6F7
+        ROS Level and ID............02881914
+        Device Specific.(Z0)........1001206D
+        Device Specific.(Z1)........00000000
+        Device Specific.(Z2)........00000000
+        Device Specific.(Z3)........03000909
+        Device Specific.(Z4)........FF801315
+        Device Specific.(Z5)........02881914
+        Device Specific.(Z6)........06831914
+        Device Specific.(Z7)........07831914
+        Device Specific.(Z8)........20000000C94CA6F7
+        Device Specific.(Z9)........TS1.90A4 
+        Device Specific.(ZA)........T1D1.90A4 
+        Device Specific.(ZB)........T2D1.90A4 
+        Device Specific.(ZC)........00000000
+        Hardware Location Code......U7311.D20.101701B-P1-C08-T1
+
+
+  PLATFORM SPECIFIC
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016F7B-P1-C06-T1
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1,1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016F7B-P1-C06-T2
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016F7B-P1-C01-T1
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1,1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016F7B-P1-C01-T2
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016FFB-P1-C01-T1
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016FFB-P1-C06-T1
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1,1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016FFB-P1-C06-T2
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1,1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016FFB-P1-C01-T2
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016F7B-P1-C02-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016F7B-P1-C03-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016F7B-P1-C07-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016F7B-P1-C08-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016FFB-P1-C02-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016FFB-P1-C03-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016FFB-P1-C07-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016FFB-P1-C08-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101701B-P1-C02-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101701B-P1-C03-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101701B-P1-C07-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101701B-P1-C08-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101702B-P1-C02-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101702B-P1-C03-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101702B-P1-C07-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101702B-P1-C08-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101701B-P1-C01-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101701B-P1-C06-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101702B-P1-C01-T1
+
+  Name:  fibre-channel
+    Model:  LP10000
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.101702B-P1-C06-T1
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016FFB-P1-C04-T1
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1,1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016FFB-P1-C04-T2
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016F7B-P1-C04-T1
+
+  Name:  fibre-channel
+    Model:  LP11002
+    Node:  fibre-channel@1,1
+    Device Type:  fcp
+    Physical Location: U7311.D20.1016F7B-P1-C04-T2
+root@nzapbs10 / > 
+# entstat -d en0 | grep -i vlan
+
+entstat: 0909-003 Unable to connect to device en0, errno = 19
+root@nzapbs10 / > 
+# clear
+
+root@nzapbs10 / >                                                                                                                              
+# lsattr -El fcs0                                                                                                                              
+bus_intr_lvl  403        Bus interrupt level                                False                                                              
+bus_io_addr   0xff800    Bus I/O address                                    False                                                              
+bus_mem_addr  0xf8081000 Bus memory address                                 False                                                              
+init_link     al         INIT Link flags                                    True                                                               
+intr_priority 3          Interrupt priority                                 False                                                              
+lg_term_dma   0x800000   Long term DMA                                      True                                                               
+max_xfer_size 0x100000   Maximum Transfer Size                              True                                                               
+num_cmd_elems 200        Maximum number of COMMANDS to queue to the adapter True                                                               
+pref_alpa     0x1        Preferred AL_PA                                    True                                                               
+sw_fc_class   2          FC Class for Fabric                                True                                                               
+tme           no         Target Mode Enabled                                True                                                               
+root@nzapbs10 / >                                                                                                                              
+# lsattr -El fscsi0                                                                                                                            
+attach       switch       How this adapter is CONNECTED         False                                                                          
+dyntrk       no           Dynamic Tracking of FC Devices        True                                                                           
+fc_err_recov delayed_fail FC Fabric Event Error RECOVERY Policy True                                                                           
+scsi_id      0x18f80      Adapter SCSI ID                       False                                                                          
+sw_fc_class  3            FC Class for Fabric                   True                                                                           
+root@nzapbs10 / >                                                                                                                              
+# lsdev -p fscsi0                                                                                                                              
+mt0      Defined   0V-08-02    N/A                                                                                                             
+mt1      Defined   0V-08-02    N/A                                                                                                             
+mt2      Defined   0V-08-02    N/A                                                                                                             
+mt3      Defined   0V-08-02    N/A                                                                                                             
+mt4      Defined   0V-08-02    N/A                                                                                                             
+mt5      Defined   0V-08-02    N/A                                                                                                             
+mt6      Defined   0V-08-02    N/A                                                                                                             
+mt7      Defined   0V-08-02    N/A                                                                                                             
+mt8      Defined   0V-08-02    N/A                                                                                                             
+mt9      Defined   0V-08-02    N/A                                                                                                             
+mt10     Defined   0V-08-02    N/A                                                                                                             
+mt11     Defined   0V-08-02    N/A                                                                                                             
+mt12     Defined   0V-08-02    N/A
+mt13     Defined   0V-08-02    N/A
+mt14     Defined   0V-08-02    N/A
+mt15     Defined   0V-08-02    N/A
+mt16     Defined   0V-08-02    N/A
+mt17     Defined   0V-08-02    N/A
+mt18     Defined   0V-08-02    N/A
+mt19     Defined   0V-08-02    N/A
+mt20     Defined   0V-08-02    N/A
+rmt181   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt182   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt183   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt184   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt185   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt186   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt187   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt188   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt189   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt190   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt191   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt192   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt193   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt194   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt195   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt196   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt197   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt198   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt199   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt200   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt201   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt202   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt203   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt204   Available 0V-08-02    LTO Ultrium Tape Drive (FCP)
+rmt493   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt494   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt495   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt496   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt497   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt498   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt499   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt500   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt501   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt502   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt503   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt504   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt505   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt506   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt507   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+rmt508   Available 0V-08-02    IBM 3580 Ultrium Tape Drive (FCP)
+sfwcomm0 Available 0V-08-02-FF Fiber Channel Storage Framework Comm
+root@nzapbs10 / > 
+# powermt display
+Symmetrix logical device count=25
+CLARiiON logical device count=0
+Hitachi logical device count=0
+Invista logical device count=0
+HP xp logical device count=0
+HP HSx logical device count=0
+==============================================================================
+----- Host Bus Adapters ---------  ------ I/O Paths -----  ------ Stats ------
+###  HW Path                       Summary   Total   Dead  IO/Sec Q-IOs Errors
+==============================================================================
+   3 fscsi25                       optimal      25      0       -     0      0
+   4 fscsi26                       optimal      25      0       -     0      0
+   5 fscsi27                       optimal      25      0       -     0      0
+
+
+root@nzapbs10 / > 
+# lspv |grep -i power |wc -l
+      25
+root@nzapbs10 / > 
+# powermt display dev=all
+Pseudo name=hdiskpower24
+Symmetrix ID=000192604543
+Logical device ID=0333
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk106  FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk107  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk29   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower0
+Symmetrix ID=000192604543
+Logical device ID=0659
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk55   FA  7eA   active  alive      0      0
+   3 fscsi25                   hdisk5    FA 10eA   active  alive      0      0
+   5 fscsi27                   hdisk80   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower1
+Symmetrix ID=000192604543
+Logical device ID=065C
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk56   FA  7eA   active  alive      0      0
+   3 fscsi25                   hdisk6    FA 10eA   active  alive      0      0
+   5 fscsi27                   hdisk81   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower2
+Symmetrix ID=000192604543
+Logical device ID=065F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk57   FA  7eA   active  alive      0      0
+   3 fscsi25                   hdisk7    FA 10eA   active  alive      0      0
+   5 fscsi27                   hdisk82   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower3
+Symmetrix ID=000192604543
+Logical device ID=0662
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk58   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk83   FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk8    FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower4
+Symmetrix ID=000192604543
+Logical device ID=0665
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk59   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk84   FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk9    FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower5
+Symmetrix ID=000192604543
+Logical device ID=0668
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk10   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk60   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk85   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower6
+Symmetrix ID=000192604543
+Logical device ID=066B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk11   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk61   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk86   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower7
+Symmetrix ID=000192604543
+Logical device ID=066E
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk12   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk62   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk87   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower8
+Symmetrix ID=000192604543
+Logical device ID=0671
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk13   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk63   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk88   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower9
+Symmetrix ID=000192604543
+Logical device ID=0674
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk14   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk64   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk89   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower10
+Symmetrix ID=000192604543
+Logical device ID=0677
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk15   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk65   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk90   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower11
+Symmetrix ID=000192604543
+Logical device ID=067A
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk16   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk66   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk91   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower12
+Symmetrix ID=000192604543
+Logical device ID=067D
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk17   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk67   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk92   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower13
+Symmetrix ID=000192604543
+Logical device ID=067F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk18   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk68   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk93   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower14
+Symmetrix ID=000192604543
+Logical device ID=0681
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk19   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk69   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk94   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower15
+Symmetrix ID=000192604543
+Logical device ID=0683
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk20   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk70   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk95   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower16
+Symmetrix ID=000192604543
+Logical device ID=0687
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk21   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk71   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk96   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower17
+Symmetrix ID=000192604543
+Logical device ID=068B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk22   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk72   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk97   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower18
+Symmetrix ID=000192604543
+Logical device ID=068F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk23   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk73   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk98   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower19
+Symmetrix ID=000192604543
+Logical device ID=0693
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk24   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk74   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk99   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower20
+Symmetrix ID=000192604543
+Logical device ID=0697
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk100  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk25   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk75   FA  7eA   active  alive      0      0
+
+Pseudo name=hdiskpower21
+Symmetrix ID=000192604543
+Logical device ID=069B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk101  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk26   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk76   FA  7eA   active  alive      0      0
+
+Pseudo name=hdiskpower22
+Symmetrix ID=000192604543
+Logical device ID=069F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk102  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk27   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk77   FA  7eA   active  alive      0      0
+
+Pseudo name=hdiskpower23
+Symmetrix ID=000192604543
+Logical device ID=06A0
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk103  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk28   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk78   FA  7eA   active  alive      0      0
+
+
+
+root@nzapbs10 / > 
+# lsdev -Cc disk |grep -i vscsi
+root@nzapbs10 / > 
+# lsdev -Cc adapter grep -i vscsi
+lsdev: 0514-500 Usage error - grep
+
+Usage:
+lsdev [-C] [-c Class][-s Subclass][-t Type][-S State][-l {Name|-}]
+        [-p ParentName][-r ColumnName| -F Format][-H][-f File ][-x]
+lsdev -P [-c Class][-s Subclass][-t Type][-r ColumnName| -F Format]
+        [-H][-f File ]
+lsdev  -h
+
+root@nzapbs10 / > 
+# lsdev -Cc adapter |grep -i vscsi
+root@nzapbs10 / > 
+# lspv
+hdisk0          00ce774b5e2f4747                    rootvg          active
+hdisk1          00ce774b5e2f49c9                    rootvg          active
+hdisk2          00ce774b5e2f4c42                    image_1         
+hdisk3          00ce774b5e2f4eb7                    image_1         
+hdisk4          00f64694b8362e58                    None            
+hdisk5          none                                None            
+hdisk6          none                                None            
+hdisk7          none                                None            
+hdisk8          none                                None            
+hdisk9          none                                None            
+hdisk10         none                                None            
+hdisk11         none                                None            
+hdisk12         none                                None            
+hdisk13         none                                None            
+hdisk14         none                                None            
+hdisk15         none                                None            
+hdisk16         none                                None            
+hdisk17         none                                None            
+hdisk18         none                                None            
+hdisk19         none                                None            
+hdisk20         none                                None            
+hdisk21         none                                None            
+hdisk22         none                                None            
+hdisk23         none                                None            
+hdisk24         none                                None            
+hdisk25         none                                None            
+hdisk26         none                                None            
+hdisk27         none                                None            
+hdisk28         none                                None            
+hdisk29         none                                None            
+hdisk54         00f64694b8362e58                    None            
+hdisk55         none                                None            
+hdisk56         none                                None            
+hdisk57         none                                None            
+hdisk58         none                                None            
+hdisk59         none                                None            
+hdisk60         none                                None            
+hdisk61         none                                None            
+hdisk62         none                                None            
+hdisk63         none                                None            
+hdisk64         none                                None            
+hdisk65         none                                None            
+hdisk66         none                                None            
+hdisk67         none                                None            
+hdisk68         none                                None            
+hdisk69         none                                None            
+hdisk70         none                                None            
+hdisk71         none                                None            
+hdisk72         none                                None            
+hdisk73         none                                None            
+hdisk74         none                                None            
+hdisk75         none                                None            
+hdisk76         none                                None            
+hdisk77         none                                None            
+hdisk78         none                                None            
+hdisk79         00f64694b8362e58                    None            
+hdisk80         none                                None            
+hdisk81         none                                None            
+hdisk82         none                                None            
+hdisk83         none                                None            
+hdisk84         none                                None            
+hdisk85         none                                None            
+hdisk86         none                                None            
+hdisk87         none                                None            
+hdisk88         none                                None            
+hdisk89         none                                None            
+hdisk90         none                                None            
+hdisk91         none                                None            
+hdisk92         none                                None            
+hdisk93         none                                None            
+hdisk94         none                                None            
+hdisk95         none                                None            
+hdisk96         none                                None            
+hdisk97         none                                None            
+hdisk98         none                                None            
+hdisk99         none                                None            
+hdisk100        none                                None            
+hdisk101        none                                None            
+hdisk102        none                                None            
+hdisk103        none                                None            
+hdiskpower0     00ce774b9014f503                    ndctsm10stg1vg  active
+hdiskpower1     00ce774b901d6d02                    ndctsm10stg1vg  active
+hdiskpower2     00ce774b90176641                    ndctsm10stg1vg  active
+hdiskpower3     00ce774b901415be                    ndctsm10stg1vg  active
+hdiskpower4     00ce774b8eb28cea                    ndctsm10stg2vg  active
+hdiskpower5     00ce774b8ea9e845                    ndctsm10stg2vg  active
+hdiskpower6     00ce774b8eb7964c                    ndctsm10stg2vg  active
+hdiskpower7     00ce774b8eaf2827                    ndctsm10stg2vg  active
+hdiskpower8     00ce774b8eacd49a                    ndctsm10stg4vg  active
+hdiskpower9     00ce774b8ea542e6                    ndctsm10stg4vg  active
+hdiskpower10    00ce774b8eabdbaf                    ndctsm10stg4vg  active
+hdiskpower11    00ce774b8ea2c2de                    ndctsm10stg4vg  active
+hdiskpower12    00ce774b901e6246                    ndctsm10stg1vg  active
+hdiskpower13    00ce774b8eb5c736                    ndctsm10stg2vg  active
+hdiskpower14    00ce774b8ea9f269                    ndctsm10stg4vg  active
+hdiskpower15    00ce774b8ea354e5                    ndctsm10stg3vg  active
+hdiskpower16    00ce774b8e9bb48f                    ndctsm10stg3vg  active
+hdiskpower17    00ce774b8ea22a97                    ndctsm10stg3vg  active
+hdiskpower18    00ce774b8ea12018                    ndctsm10stg3vg  active
+hdiskpower19    00ce774b8ea7c72c                    ndctsm10stg3vg  active
+hdiskpower20    00ce774b8ea65ea3                    ndctsm10stg3vg  active
+hdiskpower21    00ce774b8ea3053f                    ndctsm10stg3vg  active
+hdiskpower22    00ce774b8e948485                    ndctsm10logvg   active
+hdiskpower23    00ce774b8e9705ad                    appsvg          active
+hdisk106        none                                None            
+hdisk107        none                                None            
+hdiskpower24    00ce774bcd1cc844                    ndctsm10stg3vg  active
+root@nzapbs10 / > 
+# lsdev -Cc disk |grep -i hdisk0
+hdisk0       Available 0I-08-00-8,0 16 Bit LVD SCSI Disk Drive
+root@nzapbs10 / > 
+# sdev -Cc disk |grep -i LVD
+ksh: sdev:  not found
+root@nzapbs10 / > 
+# lsdev -Cc disk |grep -i LVD
+hdisk0       Available 0I-08-00-8,0 16 Bit LVD SCSI Disk Drive
+hdisk1       Available 0I-08-00-9,0 16 Bit LVD SCSI Disk Drive
+hdisk2       Available 0I-08-01-8,0 16 Bit LVD SCSI Disk Drive
+hdisk3       Available 0I-08-01-9,0 16 Bit LVD SCSI Disk Drive
+root@nzapbs10 / > 
+# lspv |wc -l
+     107
+root@nzapbs10 / > 
+# powermt display dev=all
+Pseudo name=hdiskpower24
+Symmetrix ID=000192604543
+Logical device ID=0333
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk106  FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk107  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk29   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower0
+Symmetrix ID=000192604543
+Logical device ID=0659
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk55   FA  7eA   active  alive      0      0
+   3 fscsi25                   hdisk5    FA 10eA   active  alive      0      0
+   5 fscsi27                   hdisk80   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower1
+Symmetrix ID=000192604543
+Logical device ID=065C
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk56   FA  7eA   active  alive      0      0
+   3 fscsi25                   hdisk6    FA 10eA   active  alive      0      0
+   5 fscsi27                   hdisk81   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower2
+Symmetrix ID=000192604543
+Logical device ID=065F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk57   FA  7eA   active  alive      0      0
+   3 fscsi25                   hdisk7    FA 10eA   active  alive      0      0
+   5 fscsi27                   hdisk82   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower3
+Symmetrix ID=000192604543
+Logical device ID=0662
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk58   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk83   FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk8    FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower4
+Symmetrix ID=000192604543
+Logical device ID=0665
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk59   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk84   FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk9    FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower5
+Symmetrix ID=000192604543
+Logical device ID=0668
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk10   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk60   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk85   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower6
+Symmetrix ID=000192604543
+Logical device ID=066B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk11   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk61   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk86   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower7
+Symmetrix ID=000192604543
+Logical device ID=066E
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk12   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk62   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk87   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower8
+Symmetrix ID=000192604543
+Logical device ID=0671
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk13   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk63   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk88   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower9
+Symmetrix ID=000192604543
+Logical device ID=0674
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk14   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk64   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk89   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower10
+Symmetrix ID=000192604543
+Logical device ID=0677
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk15   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk65   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk90   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower11
+Symmetrix ID=000192604543
+Logical device ID=067A
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk16   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk66   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk91   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower12
+Symmetrix ID=000192604543
+Logical device ID=067D
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk17   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk67   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk92   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower13
+Symmetrix ID=000192604543
+Logical device ID=067F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk18   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk68   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk93   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower14
+Symmetrix ID=000192604543
+Logical device ID=0681
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk19   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk69   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk94   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower15
+Symmetrix ID=000192604543
+Logical device ID=0683
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk20   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk70   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk95   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower16
+Symmetrix ID=000192604543
+Logical device ID=0687
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk21   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk71   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk96   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower17
+Symmetrix ID=000192604543
+Logical device ID=068B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk22   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk72   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk97   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower18
+Symmetrix ID=000192604543
+Logical device ID=068F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk23   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk73   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk98   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower19
+Symmetrix ID=000192604543
+Logical device ID=0693
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk24   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk74   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk99   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower20
+Symmetrix ID=000192604543
+Logical device ID=0697
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk100  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk25   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk75   FA  7eA   active  alive      0      0
+
+Pseudo name=hdiskpower21
+Symmetrix ID=000192604543
+Logical device ID=069B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk101  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk26   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk76   FA  7eA   active  alive      0      0
+
+Pseudo name=hdiskpower22
+Symmetrix ID=000192604543
+Logical device ID=069F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk102  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk27   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk77   FA  7eA   active  alive      0      0
+
+Pseudo name=hdiskpower23
+Symmetrix ID=000192604543
+Logical device ID=06A0
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk103  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk28   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk78   FA  7eA   active  alive      0      0
+
+
+
+root@nzapbs10 / > 
+# lscfg -vpl hdisk78 |grep -i lic
+        LIC Node VPD................06A0
+root@nzapbs10 / > 
+# lscfg -vpl hdisk28 |grep -i lic
+        LIC Node VPD................06A0
+root@nzapbs10 / > 
+# lscfg -vpl hdisk103 |grep -i lic
+        LIC Node VPD................06A0
+root@nzapbs10 / > 
+# lsvg -o
+ndctsm10stg3vg
+ndctsm10stg4vg
+ndctsm10stg2vg
+ndctsm10stg1vg
+appsvg
+ndctsm10logvg
+rootvg
+root@nzapbs10 / > 
+# lsvg -p ndctsm10stg1vg
+ndctsm10stg1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower0       active            768         95          00..00..00..00..95
+hdiskpower1       active            768         95          00..00..00..00..95
+hdiskpower2       active            768         96          00..00..00..00..96
+hdiskpower3       active            768         96          00..00..00..00..96
+hdiskpower12      active            511         0           00..00..00..00..00
+root@nzapbs10 / > 
+# powermt display dev=hdiskpower0
+Pseudo name=hdiskpower0
+Symmetrix ID=000192604543
+Logical device ID=0659
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk55   FA  7eA   active  alive      0      0
+   3 fscsi25                   hdisk5    FA 10eA   active  alive      0      0
+   5 fscsi27                   hdisk80   FA 10eA   active  alive      0      0
+
+
+
+root@nzapbs10 / > 
+# bootinfo -s hdisk55
+196610
+root@nzapbs10 / > 
+# bootinfo -s hdisk5
+196610
+root@nzapbs10 / > 
+# powermt display dev=all
+Pseudo name=hdiskpower24
+Symmetrix ID=000192604543
+Logical device ID=0333
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk106  FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk107  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk29   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower0
+Symmetrix ID=000192604543
+Logical device ID=0659
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk55   FA  7eA   active  alive      0      0
+   3 fscsi25                   hdisk5    FA 10eA   active  alive      0      0
+   5 fscsi27                   hdisk80   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower1
+Symmetrix ID=000192604543
+Logical device ID=065C
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk56   FA  7eA   active  alive      0      0
+   3 fscsi25                   hdisk6    FA 10eA   active  alive      0      0
+   5 fscsi27                   hdisk81   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower2
+Symmetrix ID=000192604543
+Logical device ID=065F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk57   FA  7eA   active  alive      0      0
+   3 fscsi25                   hdisk7    FA 10eA   active  alive      0      0
+   5 fscsi27                   hdisk82   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower3
+Symmetrix ID=000192604543
+Logical device ID=0662
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk58   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk83   FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk8    FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower4
+Symmetrix ID=000192604543
+Logical device ID=0665
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk59   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk84   FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk9    FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower5
+Symmetrix ID=000192604543
+Logical device ID=0668
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk10   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk60   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk85   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower6
+Symmetrix ID=000192604543
+Logical device ID=066B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk11   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk61   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk86   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower7
+Symmetrix ID=000192604543
+Logical device ID=066E
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk12   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk62   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk87   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower8
+Symmetrix ID=000192604543
+Logical device ID=0671
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk13   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk63   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk88   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower9
+Symmetrix ID=000192604543
+Logical device ID=0674
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk14   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk64   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk89   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower10
+Symmetrix ID=000192604543
+Logical device ID=0677
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk15   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk65   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk90   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower11
+Symmetrix ID=000192604543
+Logical device ID=067A
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk16   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk66   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk91   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower12
+Symmetrix ID=000192604543
+Logical device ID=067D
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk17   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk67   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk92   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower13
+Symmetrix ID=000192604543
+Logical device ID=067F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk18   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk68   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk93   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower14
+Symmetrix ID=000192604543
+Logical device ID=0681
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk19   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk69   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk94   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower15
+Symmetrix ID=000192604543
+Logical device ID=0683
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk20   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk70   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk95   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower16
+Symmetrix ID=000192604543
+Logical device ID=0687
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk21   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk71   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk96   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower17
+Symmetrix ID=000192604543
+Logical device ID=068B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk22   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk72   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk97   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower18
+Symmetrix ID=000192604543
+Logical device ID=068F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk23   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk73   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk98   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower19
+Symmetrix ID=000192604543
+Logical device ID=0693
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk24   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk74   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk99   FA 10eA   active  alive      0      0
+
+Pseudo name=hdiskpower20
+Symmetrix ID=000192604543
+Logical device ID=0697
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk100  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk25   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk75   FA  7eA   active  alive      0      0
+
+Pseudo name=hdiskpower21
+Symmetrix ID=000192604543
+Logical device ID=069B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk101  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk26   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk76   FA  7eA   active  alive      0      0
+
+Pseudo name=hdiskpower22
+Symmetrix ID=000192604543
+Logical device ID=069F
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk102  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk27   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk77   FA  7eA   active  alive      0      0
+
+Pseudo name=hdiskpower23
+Symmetrix ID=000192604543
+Logical device ID=06A0
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk103  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk28   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk78   FA  7eA   active  alive      0      0
+
+
+
+root@nzapbs10 / > 
+# lsdev -Cc adapter |grep -i fcs
+fcs0      Available 0V-08 FC Adapter
+fcs1      Available 0V-09 FC Adapter
+fcs2      Available 0S-08 FC Adapter
+fcs3      Available 0P-08 FC Adapter
+fcs4      Available 0Z-08 FC Adapter
+fcs5      Available 0a-08 FC Adapter
+fcs6      Available 0W-08 FC Adapter
+fcs7      Available 0X-08 FC Adapter
+fcs8      Available 0T-08 FC Adapter
+fcs9      Available 0U-08 FC Adapter
+fcs10     Available 0Q-08 FC Adapter
+fcs11     Available 0R-08 FC Adapter
+fcs12     Available 0G-08 FC Adapter
+fcs13     Available 0H-08 FC Adapter
+fcs14     Available 0D-08 FC Adapter
+fcs15     Available 0E-08 FC Adapter
+fcs16     Available 0N-08 FC Adapter
+fcs17     Available 0O-08 FC Adapter
+fcs18     Available 0K-08 FC Adapter
+fcs19     Available 0L-08 FC Adapter
+fcs20     Available 0F-08 FC Adapter
+fcs21     Available 0C-08 FC Adapter
+fcs22     Available 0M-08 FC Adapter
+fcs23     Available 0J-08 FC Adapter
+fcs24     Available 0b-08 FC Adapter
+fcs25     Available 0b-09 FC Adapter
+fcs26     Available 0c-08 FC Adapter
+fcs27     Available 0c-09 FC Adapter
+fcs28     Available 0Y-08 FC Adapter
+fcs29     Available 0Y-09 FC Adapter
+fcs30     Available 0P-09 FC Adapter
+fcs31     Available 0S-09 FC Adapter
+root@nzapbs10 / > 
+# lsdev -p fscsi25 |wc -l
+      52
+root@nzapbs10 / > 
+# lsdev -p fscsi26 |wc -l
+      27
+root@nzapbs10 / > 
+# lsdev -p fscsi27 |wc -l
+      27
+root@nzapbs10 / > 
+# lsdev -p fscsi26
+hdisk54   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk55   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk56   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk57   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk58   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk59   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk60   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk61   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk62   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk63   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk64   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk65   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk66   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk67   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk68   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk69   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk70   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk71   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk72   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk73   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk74   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk75   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk76   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk77   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk78   Available 0c-08-02    EMC Symmetrix FCP VRAID
+hdisk106  Available 0c-08-02    EMC Symmetrix FCP VRAID
+sfwcomm26 Available 0c-08-02-FF Fiber Channel Storage Framework Comm
+root@nzapbs10 / > 
+# lsdev -p fscsi25
+hdisk4       Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk5       Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk6       Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk7       Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk8       Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk9       Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk10      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk11      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk12      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk13      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk14      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk15      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk16      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk17      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk18      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk19      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk20      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk21      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk22      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk23      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk24      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk25      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk26      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk27      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk28      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdisk29      Available 0b-09-02    EMC Symmetrix FCP VRAID
+hdiskpower0  Available 0b-09-02    PowerPath Device
+hdiskpower1  Available 0b-09-02    PowerPath Device
+hdiskpower2  Available 0b-09-02    PowerPath Device
+hdiskpower3  Available 0b-09-02    PowerPath Device
+hdiskpower4  Available 0b-09-02    PowerPath Device
+hdiskpower5  Available 0b-09-02    PowerPath Device
+hdiskpower6  Available 0b-09-02    PowerPath Device
+hdiskpower7  Available 0b-09-02    PowerPath Device
+hdiskpower8  Available 0b-09-02    PowerPath Device
+hdiskpower9  Available 0b-09-02    PowerPath Device
+hdiskpower10 Available 0b-09-02    PowerPath Device
+hdiskpower11 Available 0b-09-02    PowerPath Device
+hdiskpower12 Available 0b-09-02    PowerPath Device
+hdiskpower13 Available 0b-09-02    PowerPath Device
+hdiskpower14 Available 0b-09-02    PowerPath Device
+hdiskpower15 Available 0b-09-02    PowerPath Device
+hdiskpower16 Available 0b-09-02    PowerPath Device
+hdiskpower17 Available 0b-09-02    PowerPath Device
+hdiskpower18 Available 0b-09-02    PowerPath Device
+hdiskpower19 Available 0b-09-02    PowerPath Device
+hdiskpower20 Available 0b-09-02    PowerPath Device
+hdiskpower21 Available 0b-09-02    PowerPath Device
+hdiskpower22 Available 0b-09-02    PowerPath Device
+hdiskpower23 Available 0b-09-02    PowerPath Device
+hdiskpower24 Available 0b-09-02    PowerPath Device
+sfwcomm25    Available 0b-09-02-FF Fiber Channel Storage Framework Comm
+root@nzapbs10 / > 
+# lsdev -p fscsi25 |grep -v power |wc -l
+      27
+root@nzapbs10 / > 
+# lsdev fscsi26 |grep -v power |wc -l
+lsdev: 0514-500 Usage error - fscsi26
+
+Usage:
+lsdev [-C] [-c Class][-s Subclass][-t Type][-S State][-l {Name|-}]
+        [-p ParentName][-r ColumnName| -F Format][-H][-f File ][-x]
+lsdev -P [-c Class][-s Subclass][-t Type][-r ColumnName| -F Format]
+        [-H][-f File ]
+lsdev  -h
+
+       0
+root@nzapbs10 / > 
+# lsdev -p fscsi26 |grep -v power |wc -l
+      27
+root@nzapbs10 / > 
+# lsdev -p fscsi2 
+root@nzapbs10 / > 
+# powermt display dev=hdiskpower24
+Pseudo name=hdiskpower24
+Symmetrix ID=000192604543
+Logical device ID=0333
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   4 fscsi26                   hdisk106  FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk107  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk29   FA 10eA   active  alive      0      0
+
+
+
+root@nzapbs10 / > 
+# lspv
+hdisk0          00ce774b5e2f4747                    rootvg          active
+hdisk1          00ce774b5e2f49c9                    rootvg          active
+hdisk2          00ce774b5e2f4c42                    image_1         
+hdisk3          00ce774b5e2f4eb7                    image_1         
+hdisk4          00f64694b8362e58                    None            
+hdisk5          none                                None            
+hdisk6          none                                None            
+hdisk7          none                                None            
+hdisk8          none                                None            
+hdisk9          none                                None            
+hdisk10         none                                None            
+hdisk11         none                                None            
+hdisk12         none                                None            
+hdisk13         none                                None            
+hdisk14         none                                None            
+hdisk15         none                                None            
+hdisk16         none                                None            
+hdisk17         none                                None            
+hdisk18         none                                None            
+hdisk19         none                                None            
+hdisk20         none                                None            
+hdisk21         none                                None            
+hdisk22         none                                None            
+hdisk23         none                                None            
+hdisk24         none                                None            
+hdisk25         none                                None            
+hdisk26         none                                None            
+hdisk27         none                                None            
+hdisk28         none                                None            
+hdisk29         none                                None            
+hdisk54         00f64694b8362e58                    None            
+hdisk55         none                                None            
+hdisk56         none                                None            
+hdisk57         none                                None            
+hdisk58         none                                None            
+hdisk59         none                                None            
+hdisk60         none                                None            
+hdisk61         none                                None            
+hdisk62         none                                None            
+hdisk63         none                                None            
+hdisk64         none                                None            
+hdisk65         none                                None            
+hdisk66         none                                None            
+hdisk67         none                                None            
+hdisk68         none                                None            
+hdisk69         none                                None            
+hdisk70         none                                None            
+hdisk71         none                                None            
+hdisk72         none                                None            
+hdisk73         none                                None            
+hdisk74         none                                None            
+hdisk75         none                                None            
+hdisk76         none                                None            
+hdisk77         none                                None            
+hdisk78         none                                None            
+hdisk79         00f64694b8362e58                    None            
+hdisk80         none                                None            
+hdisk81         none                                None            
+hdisk82         none                                None            
+hdisk83         none                                None            
+hdisk84         none                                None            
+hdisk85         none                                None            
+hdisk86         none                                None            
+hdisk87         none                                None            
+hdisk88         none                                None            
+hdisk89         none                                None            
+hdisk90         none                                None            
+hdisk91         none                                None            
+hdisk92         none                                None            
+hdisk93         none                                None            
+hdisk94         none                                None            
+hdisk95         none                                None            
+hdisk96         none                                None            
+hdisk97         none                                None            
+hdisk98         none                                None            
+hdisk99         none                                None            
+hdisk100        none                                None            
+hdisk101        none                                None            
+hdisk102        none                                None            
+hdisk103        none                                None            
+hdiskpower0     00ce774b9014f503                    ndctsm10stg1vg  active
+hdiskpower1     00ce774b901d6d02                    ndctsm10stg1vg  active
+hdiskpower2     00ce774b90176641                    ndctsm10stg1vg  active
+hdiskpower3     00ce774b901415be                    ndctsm10stg1vg  active
+hdiskpower4     00ce774b8eb28cea                    ndctsm10stg2vg  active
+hdiskpower5     00ce774b8ea9e845                    ndctsm10stg2vg  active
+hdiskpower6     00ce774b8eb7964c                    ndctsm10stg2vg  active
+hdiskpower7     00ce774b8eaf2827                    ndctsm10stg2vg  active
+hdiskpower8     00ce774b8eacd49a                    ndctsm10stg4vg  active
+hdiskpower9     00ce774b8ea542e6                    ndctsm10stg4vg  active
+hdiskpower10    00ce774b8eabdbaf                    ndctsm10stg4vg  active
+hdiskpower11    00ce774b8ea2c2de                    ndctsm10stg4vg  active
+hdiskpower12    00ce774b901e6246                    ndctsm10stg1vg  active
+hdiskpower13    00ce774b8eb5c736                    ndctsm10stg2vg  active
+hdiskpower14    00ce774b8ea9f269                    ndctsm10stg4vg  active
+hdiskpower15    00ce774b8ea354e5                    ndctsm10stg3vg  active
+hdiskpower16    00ce774b8e9bb48f                    ndctsm10stg3vg  active
+hdiskpower17    00ce774b8ea22a97                    ndctsm10stg3vg  active
+hdiskpower18    00ce774b8ea12018                    ndctsm10stg3vg  active
+hdiskpower19    00ce774b8ea7c72c                    ndctsm10stg3vg  active
+hdiskpower20    00ce774b8ea65ea3                    ndctsm10stg3vg  active
+hdiskpower21    00ce774b8ea3053f                    ndctsm10stg3vg  active
+hdiskpower22    00ce774b8e948485                    ndctsm10logvg   active
+hdiskpower23    00ce774b8e9705ad                    appsvg          active
+hdisk106        none                                None            
+hdisk107        none                                None            
+hdiskpower24    00ce774bcd1cc844                    ndctsm10stg3vg  active
+root@nzapbs10 / > 
+# bootinfo -s hdisk101
+262147
+root@nzapbs10 / > 
+# powermt display dev=all |grep -ip hdisk101
+Pseudo name=hdiskpower21
+Symmetrix ID=000192604543
+Logical device ID=069B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   5 fscsi27                   hdisk101  FA 10eA   active  alive      0      0
+   3 fscsi25                   hdisk26   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk76   FA  7eA   active  alive      0      0
+
+root@nzapbs10 / > 
+# powermt display dev=all |grep -i hdisk97
+   5 fscsi27                   hdisk97   FA 10eA   active  alive      0      0
+root@nzapbs10 / > 
+# powermt display dev=all |grep -ip hdisk97
+Pseudo name=hdiskpower17
+Symmetrix ID=000192604543
+Logical device ID=068B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk22   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk72   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk97   FA 10eA   active  alive      0      0
+
+root@nzapbs10 / > 
+# lscfg -vpl hdisk97 |grep -i loc
+    Device Type:  block
+root@nzapbs10 / > 
+# 
+root@nzapbs10 / > 
+# lscfg -vpl hdisk97 |grep -i lic
+        LIC Node VPD................068B
+root@nzapbs10 / > 
+# powermt display dev=all |grep -ip 068B
+Pseudo name=hdiskpower17
+Symmetrix ID=000192604543
+Logical device ID=068B
+state=alive; policy=SymmOpt; priority=0; queued-IOs=0
+==============================================================================
+---------------- Host ---------------   - Stor -   -- I/O Path -  -- Stats ---
+###  HW Path                I/O Paths    Interf.   Mode    State  Q-IOs Errors
+==============================================================================
+   3 fscsi25                   hdisk22   FA 10eA   active  alive      0      0
+   4 fscsi26                   hdisk72   FA  7eA   active  alive      0      0
+   5 fscsi27                   hdisk97   FA 10eA   active  alive      0      0
+
+root@nzapbs10 / > 
+# 

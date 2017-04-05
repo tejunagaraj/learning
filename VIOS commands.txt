@@ -1,0 +1,48 @@
+VIOS impt commands
+
+1. To create the SEA, which bridges the physical adapter and the virtual adapter:
+# mkvdev -sea ent0 -vadapter ent4 -default ent4 -defaultid 1
+
+	- ent0 physical adapter
+	- ent4 virtual adapter
+	- 1 port vlan id
+
+2. Configure the TCP/IP connection for the VIOS with details provided by the network administrator.
+# mktcpip -hostname vios1 -interface en5 -inetaddr 172.16.22.15 -netmask 255.255.252.0 -gateway 172.16.20.1
+
+
+*** TCP and UDP port 657 must be open between the HMC and the VIOS, which is required for dynamic LPAR
+
+3. To configure disk on vios
+# cfgdev
+
+4. To list the disks of vios partition
+# lsdev -type disk
+
+5. command to confirm the SAN LUN ID
+# lsdev -dev hdiskX -attr | grep -E "unique_id | reserve"
+
+6. Deactivate the SCSI reserve lock on the disk, in this case hdisk6:
+# chdev -dev hdisk6 -attr reserve_policy=no_policy
+
+7. Command to check if a device can be converted from physical to virtual 
+# chkdev -dev hdisk4 -verbose
+
+lsmap -all -fmt : -field SVSA Physloc "Client Partition ID" VTD
+
+
+	
+
+
+
+
+Impt links
+
+http://www-01.ibm.com/support/docview.wss?uid=isg3T1011040
+	- How to Setup SEA Failover on DUAL VIO servers
+
+
+https://www-304.ibm.com/support/docview.wss?uid=isg3T1011063
+	- Delayed SEA failover ( also includes SEA failover testing )
+
+

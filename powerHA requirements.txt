@@ -1,0 +1,110 @@
+					Power HA requirements
+
+The following AIX base operating system (BOS) components are prerequisites for PowerHA:
+bos.adt.lib
+bos.adt.libm
+bos.adt.syscalls
+bos.ahafs
+bos.cluster
+bos.clvm.enh
+bos.data
+bos.net.tcp.client
+bos.net.tcp.server
+bos.rte.SRC
+bos.rte.libc
+bos.rte.libcfg
+bos.rte.libcur
+bos.rte.libpthreads
+bos.rte.lvm
+bos.rte.odm
+cas.agent (optional, but required only for IBM Systems Director plug-in)
+devices.common.IBM.storfwork.rte (optional, but required for sancomm)
+
+-----------------------------------------------------
+
+Requirements for NFSv4
+The cluster.es.nfs file set that is included with the PowerHA installation medium installs the
+NFSv4 support for PowerHA, along with an NFS Configuration Assistant. To install this file
+set, the following BOS NFS components must also be installed on the system.
+AIX Version 6.1:
+– bos.net.nfs.server 6.1.9.0
+– bos.net.nfs.client 6.1.9.0
+AIX Version 7.1:
+– bos.net.nfs.server 7.1.3.0
+– bos.net.nfs.client 7.1.3.0
+
+-----------------------------------------------------
+
+Requirements for RSCT
+Install the RSCT file sets before installing PowerHA. Ensure that each node has the same
+version of RSCT.
+To determine if the appropriate file sets are installed and what their levels are, issue the
+following commands:
+/usr/bin/lslpp -l rsct.compat.basic.hacmp
+/usr/bin/lslpp -l rsct.compat.clients.hacmp
+/usr/bin/lslpp -l rsct.basic.rte
+/usr/bin/lslpp -l rsct.core.rmc
+
+If the file sets are not present, install the appropriate version of RSCT.
+
+-----------------------------------------------------
+Installing PowerHA requisites
+
+The following file sets are required and must be installed on all servers:
+– cluster.es.server
+– cluster.es.client
+– cluster.cspoc f
+
+Post-installation steps
+To complete the installation, complete the following steps:
+1. Verify the software installation by using the AIX lppchk command, and check the installed
+directories to see if the expected files are present.
+2. Run the lppchk -v and lppchk -c cluster* commands. Both commands run clean if the
+installation is good; if not, use the proper problem determination techniques to fix any
+problems.
+3. A reboot might be required if RSCT prerequisites have been installed since the last time
+the system was rebooted.
+
+========================================================================================================================================
+
+Use the following basic steps for configuring your cluster:
+1. Define the cluster and the nodes.
+2. Modify the topology as you want.
+3. Verify and synchronize to check for errors.
+4. Define the resources and resource groups.
+5. Verify and synchronize.
+
+========================================================================================================================================
+
+The discovery process harvests information from the /etc/hosts file, defined interfaces,
+defined adapters, and existing enhanced concurrent mode disks. The process then creates
+the following files in the /usr/es/sbin/cluster/etc/config directory:
+
+clip_config Contains details of the discovered interfaces; used in the F4 SMITlists.
+clvg_config Contains details of each physical volume (PVID, volume group name,
+           status, major number, and so on) and a list of free major numbers.
+
+Running discovery can also reveal any inconsistency in the network at your site.
+
+========================================================================================================================================
+
+Communication paths:
+
+TCP/IP
+SAN-based (sfwcomm)
+Repository disk
+
+========================================================================================================================================
+
+clusterconf -r hdisk#   --> repopulate the odm entry to force the node to join the cluster by adding repository disk
+
+The Cluster Communications daemon uses port 16191
+
+The real use of the /etc/cluster/rhosts file is before the cluster is first synchronized in an insecure environment. After the CAA cluster is created, the only time that the file (/etc/cluster/rhosts) is needed is when adding more nodes to the cluster. However, leave it in place.
+
+
+
+
+
+
+
